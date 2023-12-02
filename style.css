@@ -20,7 +20,7 @@ body {
 .options {
     background-color: rgb(255, 255, 255);
     width: 80%;
-    height: 200px;
+    height: 230px;
     border: 2px solid black;
     margin: 0 auto;
     display: flex;
