@@ -2,7 +2,7 @@ body {
     background-color: rgba(75, 12, 63, 1);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: fit-content;
+    height: 97vh;
 }
 
 .logo {
@@ -11,27 +11,23 @@ body {
     margin-right: 10px;
 }
 
-.form {
-
-    background-color: rgb(255, 255, 255);
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 20px;
-    margin-top: 60px;
-    color: rgb(0, 0, 0);
+.title {
+    color: rgba(75, 12, 63, 1);
+    font-weight: 700;
 }
 
+
 .options {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 80%;
     height: 200px;
+    border: 2px solid black;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 110px;
     border-radius: 20px;
 }
 
@@ -55,12 +51,14 @@ body {
     width: 100%;
     background-color: black;
     height: 150px;
-    margin-top: 60px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    position: absolute;
+    bottom: 0;
 }
 
 .social a {
